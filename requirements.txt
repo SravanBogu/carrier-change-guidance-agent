@@ -1,6 +1,7 @@
 azure-ai-projects
 azure-identity
 azure-search-documents
+pydantic
 python-dotenv
 pytest
 httpx2
