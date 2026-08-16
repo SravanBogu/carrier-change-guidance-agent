@@ -70,7 +70,7 @@ def test_analyze_payload_wraps_http_error() -> None:
 
         with pytest.raises(
             CarrierIntelligenceApiError,
-            match="Unable to call the Carrier Change Intelligence API.",
+            match="Unable to call the Carrier Change Intelligence Agent API.",
         ):
             client.analyze_payload(
                 carrier="Northwind Mutual",

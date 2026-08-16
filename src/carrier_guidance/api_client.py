@@ -31,12 +31,12 @@ class CarrierIntelligenceApiClient:
             response.raise_for_status()
         except httpx.HTTPError as error:
             raise CarrierIntelligenceApiError(
-                "Unable to call the Carrier Change Intelligence API."
+                "Unable to call the Carrier Change Intelligence Agent API."
             ) from error
 
         try:
             return CarrierAnalysis.model_validate(response.json())
         except ValueError as error:
             raise CarrierIntelligenceApiError(
-                "The Carrier Change Intelligence API returned an invalid response."
+                "The Carrier Change Intelligence Agent API returned an invalid response."
             ) from error
