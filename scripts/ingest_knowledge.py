@@ -1,0 +1,1 @@
+"""Chunks, embeds, and uploads synthetic knowledge to Azure AI Search."""
