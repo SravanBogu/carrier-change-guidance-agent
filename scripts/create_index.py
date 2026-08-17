@@ -1,0 +1,1 @@
+"""Creates the Azure AI Search index in the next implementation phase."""
